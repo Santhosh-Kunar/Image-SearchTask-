@@ -1,0 +1,117 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+
+
+section > h1{
+    text-transform:capitalize;
+    color:#eeeef6;
+    padding-top: 50px;
+    margin-bottom: -80px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.product-container{
+    display: grid;
+    grid-template-columns:repeat(3,18rem);
+    gap:100px;
+    margin: 120px;;
+    margin-bottom:1rem;
+}
+.product-container> div{
+    background-color:white;
+    border-radius:0.6rem;
+    padding-bottom:2rem;
+    box-shadow:4px 4px 7px 0px grey;
+    cursor: pointer;
+}
+
+
+.product-container div img{
+    width:300px;
+    height:200px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.card-body p{
+    max-height:1rem;
+    font-size: 16px;
+    overflow:hidden;
+}
+.card-body h2{
+     color:#2c2c97;
+    font-size:25px;
+    height:1.8rem;
+}
+.card-body h4{
+    font-size:25px;
+    float:inherit;
+    border: 1px solid gray;
+}
+.rating{
+    background-color:green;
+    padding:0.3rem 0.6rem;
+    width:fit-content;
+    border-radius:1rem;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+svg{
+    color:white;
+    font-size:0.8rem;
+    margin-right:0.2rem;
+}
+.price{
+    margin-left:0.3rem;
+}
+.fa-solid{
+    font-size:10rem !important;
+    color:red;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #efefef;
+  font-family: "Merriweather", serif;position: relative;
+}
+.sidebar {
+  background: #fff;
+  box-shadow: 0px 0px 3px 0px gainsboro;
+  width: 500px;
+  height: 500;
+  position: absolute;
+  padding: 10px;
+  top: 0;
+  transition: ease all 0.6s;
+}
+.close {
+  opacity: 0;
+  visibility: hidden;
+}
+.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.sidebar {
+  width: 600px;
+  height: 580px;
+  right: 535px;
+  top: 180px;
+  animation: myfirst 5s;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+Link:hover{
+  color: orangered;
+}
+

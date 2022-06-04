@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menudiv{
+    width: 500px;
+    height: auto;
+    /* background-color: rgb(230, 227, 225); */
+}
+.menuul{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: smaller;
+}
+.menuul li{
+    list-style-type: none;
+}
+.menuul a{
+    text-decoration: none;
+    color: black;
+}
+.menuul button{
+    height: 40px;
+    width: 120px;
+    border: 2px solid gray;;
+    border-radius: 5px;
+}

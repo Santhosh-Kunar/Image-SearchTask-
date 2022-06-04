@@ -1,0 +1,20 @@
+ {Json.map((item,index)=>{
+     return()
+     <li id={index+1} className="card" key="index">
+                <a>
+                  <div>
+                    <img
+                      src={item.imageurl}
+                    />
+                  </div>
+                  <span className="play_icon" title="Play" />
+                </a>
+                <div className="t_wrap">
+                  <a
+                    href="/song/naach-meri-rani"
+                  >
+                    {title}
+                
+                  </a>
+                </div>
+              </li>}

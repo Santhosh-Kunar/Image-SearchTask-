@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbarSection{
+    height: 75px;
+    width: 100%;
+      background-color: antiquewhite;
+
+}
+.navbarDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    width: 95%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+
+}
